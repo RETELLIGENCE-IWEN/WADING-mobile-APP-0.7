@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) [year] [fullname]
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wadbackground">
+        <Button
+        android:text="◀"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonback7"
+        android:onClick="buttonClicked"/>
+
+    <TextView
+        android:text="2"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="105dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid2" />
+
+    <TextView
+        android:text="3"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="190dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid3" />
+
+    <TextView
+        android:text="4"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="275dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid4" />
+
+    <TextView
+        android:text="5"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid5" />
+
+    <TextView
+        android:text="6"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="105dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid6" />
+
+    <TextView
+        android:text="7"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="190dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid7" />
+
+    <TextView
+        android:text="8"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="275dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid8" />
+
+    <TextView
+        android:text="9"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid9" />
+
+    <TextView
+        android:text="10"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="105dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid10" />
+
+    <TextView
+        android:text="11"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="190dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid11" />
+
+    <TextView
+        android:text="12"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="275dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid12" />
+
+    <TextView
+        android:text="13"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid13" />
+
+    <TextView
+        android:text="14"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="105dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid14" />
+
+    <TextView
+        android:text="15"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="190dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid15" />
+
+    <TextView
+        android:text="16"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="275dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid16" />
+
+    <TextView
+        android:text="17"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid17" />
+
+    <TextView
+        android:text="18"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="105dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid18" />
+
+    <TextView
+        android:text="19"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="190dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid19" />
+
+    <TextView
+        android:text="20"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="275dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid20" />
+
+    <TextView
+        android:text="22"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="105dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid22" />
+
+    <TextView
+        android:text="23"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="190dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid23" />
+
+    <TextView
+        android:text="24"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="275dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid24" />
+
+    <TextView
+        android:text="21"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid21" />
+
+    <TextView
+        android:text="1"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:background="#FFFFFF"
+        android:id="@+id/grid1" />
+
+</RelativeLayout>

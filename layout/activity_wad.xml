@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) [year] [fullname]
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wadbackground">
+
+    <Button
+        android:text="◀"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonback6"
+        android:onClick="buttonClicked"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="## What is WADING?\n\n
+# 프로젝트 WADING은 명확한 드론관제의 해결방법을 제시하고자 초소형 외장 칩을 모든 희망 기체에 장착,\n
+# 중앙 서버와 실시간 lte 통신을 통해 정보를 공유하며 무인항공기 뿐만 아니라,\n
+# 열기구, 비행선, 미래에 개발될 소형 유인항공기 등, 저고도 비행체 전부를\n
+# 관리, 통제 할 수 있는 종합 관제 시스템이다. 기존의 항공기 운항 망, 비행금지 구역, 지리정보 등,\n
+# 필요한 정보를 비행체들 뿐 만 아니라 사용자들이 원격으로 모바일 어플리케이션을 통해서 볼 수 있으며\n
+# 실시간으로 드론의 위치와 비행정보 전반에 대한 모니터링을 할 수 있다.\n
+# 비행 금지 구역, 시간에 대해서 법규제의 구현 도구로 사용 될 수 있으며\n
+# 영공의 모든 저고도 비행체간의 충돌을 높은 신뢰도로 방지 할 수 있는 드론 종합 네트워크 시스템이다."/>
+</LinearLayout>

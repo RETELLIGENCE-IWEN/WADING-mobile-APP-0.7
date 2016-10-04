@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) [year] [fullname]
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wading.retelligence.wading.MainActivity"
+    android:background="@drawable/wadbackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:id="@+id/button"
+            android:text="Identification\n등록"
+            android:layout_marginTop="70dp"
+            android:onClick="buttonClicked" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:id="@+id/button2"
+            android:text="실시간 추적"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="70dp"
+            android:onClick="buttonClicked" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:id="@+id/button4"
+            android:text="Flight 스케줄\n등록 및 각인"
+            android:onClick="buttonClicked"
+            android:layout_marginTop="180dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:id="@+id/button3"
+            android:text="What is\nWADING?"
+            android:onClick="buttonClicked"
+            android:layout_marginTop="180dp" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:id="@+id/button6"
+            android:text="기부와 WAD구매"
+            android:onClick="buttonClicked"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="290dp" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:id="@+id/button5"
+            android:text="Geo Data"
+            android:onClick="buttonClicked"
+            android:layout_marginTop="290dp" />
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:text="설정\options"
+            android:id="@+id/button8"
+            android:onClick="buttonClicked"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="400dp"/>
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:text="Flight assistant"
+            android:id="@+id/button7"
+            android:onClick="buttonClicked"
+            android:layout_marginTop="400dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
